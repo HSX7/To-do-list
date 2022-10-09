@@ -1,0 +1,114 @@
+body{
+  background: url(image/nature.jpg);
+  background-size: cover;
+  margin: 0;
+}
+
+
+.countainer{
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+
+#footer-Countainer{
+  background: #FFFF00;
+  height: 4.375rem;
+  position: relative;
+  top: 30.3125rem;
+  width: 100%;
+
+}
+
+
+.linkedin{
+  text-decoration: none;
+  color: #FF1E1E;
+  position: relative;
+  left: 37.5rem;
+  top: 2.1875rem;
+  font-family: 'Merriweather', serif;
+
+}
+.linkedin:hover{
+  color: #F9F9F9;
+}
+
+.github{
+  text-decoration: none;
+  color: #FF1E1E;
+
+  position: relative;
+  top: 2.1875rem;
+  left: 29.0625rem;
+  font-family: 'Merriweather', serif;
+
+}
+
+#copyright{
+  font-family: 'Merriweather', serif;
+  font-size: 0.75rem;
+  color: #FF1E1E;
+  position: relative;
+  left: 61.875rem;
+  top: 0.625rem;
+}
+
+#copyright:hover{
+  color:#F9F9F9;
+}
+
+.github:hover{
+  color: #F9F9F9;
+}
+
+p{
+  color: #A8E890;
+  font-family: 'Alkalami', serif;
+  font-size: 50px;
+}
+
+input{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+
+}
+
+input[type="text"]{
+  background: #fff;
+  width: 21.25rem;
+  height: 3.125rem;
+  border: none;
+  outline: none;
+  padding: 0 25px;
+  border-radius: 25px 0 0 25px;
+}
+
+#task-button {
+  position: relative;
+  border-radius: 0 25px 25px 0;
+  width: 9.375rem;
+  height: 3.125rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #ffc107;
+  color: #fff;
+}
+
+#task-button:hover{
+  background: #ff5722;
+}
+
+.paragraph-styling{
+  margin: 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.contentCountainer{
+  background-color: #fff;
+}
